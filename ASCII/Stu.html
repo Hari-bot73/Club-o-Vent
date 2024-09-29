@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stu.css">
+    <title>Sliding Panels</title>
+</head>
+<body>
+    
+    <video autoplay muted loop id="bgvideo">
+        <source src="RegV.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <div class="panel left-panel">
+            <div class="content-x">
+                <h2>Welcome Collegian</h2><br><center>
+                <p>Seshadripuram College</p><br>
+                <button class="sign"  id="signinbtn">Sign Up</button></center>
+            </div>
+        </div>
+        <div class="panel right-panel">
+            <div class="content"><br><center>
+                <h2>Welcome</h2></center>
+               <b><p>Seshadripuram College</p></b><br><br>
+               </div>
+               <div class="Rform">
+               <form>
+                <span><label for="Name">Enter Your Name : </label><input style="padding:3px;"type="text" id="Name" placeholder=""></span><br>
+                        
+                <span><label for="E-mail">Enter Your E-mail   :  </label><input style="padding:3px;"type="text" id="E-mail" placeholder=""></span><br>
+                
+                <span><label for="UUCMS Registration Number">Enter Reg Number:  </label><input style="padding:3px;"type="text" id="Reg" placeholder=""></span><br>
+               
+                <div class="course-registration">
+                    <h2>Course</h2><br>
+        
+                <input  style="text-align: left;" type="radio" id="c1" name="course" value="B.Com">
+                <label for="c1">B.Com</label><br>
+                <input type="radio" id="c2" name="course" value="BBA">
+                <label for="c1">BBA</label><br>
+                <input type="radio" id="c3" name="course" value="BCA">
+                <label for="c1">BCA</label><br>
+                <h2>Clubs</h2><br>
+                <label for="D-Down">Our Clubs?</label>
+
+                <select id="main-dropdown">
+
+                    <option value="">Select a club</option>
+                    <option value="option1">NCC</option>
+                    <option value="option2">Tarang</option>
+                    <option value="option3">NSS</option>
+                    <option value="option3">YRC</option>
+                    <option value="option3">Pragna</option>
+                  </select><br>
+                  
+                
+                    <label for="sub-dropdown">Our Events</label>
+                  <select id="sub-dropdown" style="display: none;">
+                    <option value="">Select an option</option>
+                    <option value="sub-option1">Singing</option>
+                    <option value="sub-option2">Dancing</option>
+                    <option value="sub-option3">Drama</option>
+                    <option value="sub-option4">Fashion Show</option>
+                  </select>
+            
+          
+              
+                </div>
+            </div>
+                <button class="sign" id="signupbtn">Register</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="Stu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+</body>
+</html>
