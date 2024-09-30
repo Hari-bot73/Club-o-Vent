@@ -1,63 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NCC Club Page</title>
-    <link rel="stylesheet" href="NCC.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="ncc.css"> 
 
 </head>
-<body>
-        <header>
-            <nav class="main-nav">
-                <ul> 
-                    <center>
-                    <div class="left-links">
-                   <b><li><b><a href="Home.html">Home</a></li></b>
-                   <b><li><a href="index.html">Clubs</a></li></b>
-                   <b> <li><a href="#one">Events</a></b>
-                    <b> <li><a href="#three">Gallery</a></b>
-                    </div>
-               </center>
-                </ul>
-            </nav>
-        </header>
-    
-            <div class="header">
-            </div>
-         <style>
-            .button-hover{
-                background-color: rgb(255, 151, 151);
-            }
-         </style>
-                </ul>
-            </nav>
-        </div>
-        <div class="img-container">
-            <center>
-            <img src="../ASCII/Assets/NCCnew.jpg" height="680px" width="900px"
-            style="align-items: center;margin: 0 auto;">
-            </center>
-            </div>
-            <center>
-                <button class="Pragna-button"  onclick="openPage()"
-                style="border-radius: 20px;height: 40px;width:  480px;bottom:auto; font-family: 'Lucida Console';color: black;"><b>Join!</b></button>
-                      <script>
-                        function  openPage() {
-                            window.location.href = "Stu.html";
-                        }
+<body >
+    <header>
         
-                      </script> 
-        </center>
-    <div>
-        </header>
-        <div class="content" style="margin: 10px;border-radius: 25px;">
-            <section id="about">
-                <h2 align="center"> <u>NCC COMMITTEE</u></h2><br>
-                <p class="description">
-                    <b>
+        <nav class="main-nav">
+            <ul>
+                <div class="left-links">
+                
+               <b><li><b><a href="Home.html">Home</a></li></b>
+               <b><li><a href="index.html">Clubs</a></li></b>
+               <b> <li><a href="#One">Events</a></b>
+                <b> <li><a href="#three">Gallery</a></b>
+           
+                </div>
+            </ul>
+        </nav>
+        
+    </header>
+	
+	<div id="two" class="container">
+	<style>
+		img{
+			border-radius: 40px;
+			width: 60%;
+		}
+     
+		h1{
+
+   
+    text-align :center;
+    border-radius: 40px;
+	gap:2px;
+    border: #fff;
+    margin: 5px;
+    background:repeating-linear-gradient(to bottom,rgb(11, 145, 190),rgb(127, 183, 202),rgb(13, 133, 173));
+	color: rgb(221, 216, 216);
+	width:100%;
+	padding:10px;
+	display: flexbox;
+	
+}
+h2{
+    text-align: center;
+}
+#one{
+	display: flexbox;
+	border-radius: 20px;
+	background: repeating-linear-gradient(to right,);
+	height: 40px;
+	width:  170px;
+	margin: right;
+
+}
+ body{
+    background:repeating-linear-gradient(to bottom,rgb(11, 145, 190),rgb(127, 183, 202),rgb(13, 133, 173));
+    font-family:Arial, Helvetica, sans-serif;
+ }
+	</style>
+		
+		<center>
+            
+        <a href="#about"
+        style="display: block;">
+        <picture>  
+            <source media="(min-width: 40em)" srcset="../ASCII/Assets/NCCnew.jpg" width="60%" height="550px">   
+		<img src="../ASCII/Assets/NCCnew.jpg" style="height:550px;"></a>
+       <button class="Pragna-button"  onclick="openPage()"
+        style="border-radius: 20px;height: 40px;width:  300px;bottom:auto; font-family: 'Lucida Console';color: black;"><b>Join!</b></button>
+              <script>
+                function  openPage() {
+                    window.location.href = "Stu.html";
+                }
+
+              </script> 
+     <style>
+        .button{
+
+            background-color:#f0f0f0;
+        }
+     
+  
+        
+        </style>
+	</center>
+	
+    <div class="Pcontent">
+        <section id="about">
+            <h1 align="center"><u>NATIONAL CADET CORPS</u></h1>
+            <p class="description">
+                <b>
                     NCC-NITS. The National Cadet Corps is the Indian military cadet corps with its head Quarters at New Delhi. It is open to school and college students on voluntary basis. The National Cadet Corps in India is a voluntary organization which recruits cadets from high schools, colleges and Universities all over India. <br>
                    * What it is?<br>
                     The NCC is a voluntary organization that trains young people in India to become disciplined, patriotic citizens. It's a tri-service organization that includes the Army, Navy, and Air Wing. <br>
@@ -81,96 +119,191 @@
                    * Its structure:<br>
                     The NCC has 17 directorates, which are divided into 837 units across three service groups: Army, Naval, and Air. <br>
                    * Its motto:<br>
-                    The NCC's motto is "Unity and Discipline". <br><br><br>
+                    The NCC's motto is "Unity and Discipline". <br>
                    
                 </b>
-                
-            </section>
-            <div id="three" class="container"  style="border-radius: 25px;">
-                <h2 align="center"><u>NCC Gallery</u></h2>
-                <section id="gallery">
-                    <div class="gall">
-                    <img src="../ASCII/Assets/Ncc1.jpg">
-                    <div class="desc"></div>
-                </div>
-            
-                <div class="gall">
-                    <img src="../ASCII/Assets/Ncc2.jpg">
-                    <div class="desc"></div>
-                </div>
-                <div class="gall">
-                    <img src="../ASCII/Assets/Ncc3.jpg">
-                    <div class="desc"></div>
-                </div>
-            
-                <div class="gall">
-                    <img src="../ASCII/Assets/Ncc4.jpg">
-                    <div class="desc"></div>
-                </div>
-            
-                <div class="gall">
-                    <img src="../ASCII/Assets/Ncc5.jpg">
-                    <div class="desc"></div>
-                </div>
-            
-                <div class="gall">
-                    <img src="../ASCII/Assets/Ncc6.jpg">
-                    <div class="desc"></div>
-                </div>
-                </div>
-            </div>
-                  </section>
-            
-        </div>
-        </div>
+</section>
 
-<h2 style="margin-left: 49%;font-size: 200%;">Events</h2><br>
-        <div class=" min-window"> 
-               
-    <div  id="one" class="Scroll">
-        <article class="article">
-            <p>Good Afternoon dear All
+<div id="three"   class="container">
+    <h2 align="center"><u>NATIONAL CADET CORPS FRAME</Frame></u></h2>
+    <section id="gallery">
+        <div class="gall">
+        <img src="nssimg1.png.jpg">
+        <div class="desc"></div>
+    </div>
 
-                Students who are interested in joining AWS course and given names in MCA department are required to bring Students to bring      sslc marks card xerox   Adhar xerox
-                One photo
-                Degree any semester marks card xerox 
-                And 
-                Mobile..
-                Thanks</p>
-           
-         
-        </article>
-        <article class="article">
-            <p>Greetings everyone !
-                " SAMVIT "
-                 The Social Media Committee is inviting Students to the orientation and logo launch event of the committee.
-                
-                Students who are interested in :-
-                * Content creation
-                * Podcasts 
-                * Editing of any kind 
-                * Photography & Videography
-                Are requested to join the event, come join us in this new journey 
-                
-                Date:- 26/09/24
-                Time:-10:30 AM
-                Venue:- AV room
-                
-                To Register Fill The Google Form and 
-                Do join the what's app group for further information about the committee 
-                </p>
-           
-         
-        </article>
-            </div>
+    <div class="gall">
+        <img src="nssimg2.png.jpg">
+        <div class="desc"></div>
+    </div>
+    <div class="gall">
+        <img src="nssimg3.png.jpg">
+        <div class="desc"></div>
+    </div>
+
+    <div class="gall">
+        <img src="nssimg4.png.jpg">
+        <div class="desc"></div>
+    </div>
+
+    <div class="gall">
+        <img src="nssimg5.png.jpg">
+        <div class="desc"></div>
+    </div>
+
+    <div class="gall">
+        <img src="nssimg6.png.jpg">
+        <div class="desc"></div>
+    </div>
+    </div>
+</div>
+
+      </section>
+<h2 style="color: #fff;"><u>ANNOUCEMENTS</u></h2>
+
+
+
+    </div>
+		
+	</div>
+  <style>
+    .Pcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background:repeating-linear-gradient(to bottom,rgb(11, 145, 190),rgb(127, 183, 202),rgb(13, 133, 173));
+    border-radius: 0px;  
+    color: rgb(221, 216, 216);
+    font-size: clamp (2rem, 0.7179487179487178rem + 5.47008547008547vw, 4rem);
+
+
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+  </style>
+	
+	
+<div  class="button-container">
+<center>
+	<div style="display: flex;justify-content: center;right: 40%;">
+	
+</center>
+	<style>
+		.button-container{
+			display:flex;
+		    align-items: center;
+		
+		
+			
+
+		}
+		.button{
+            text-align: center;
+			vertical-align: middle;
+			right:40%;
+		}
+     
+	  
+	</style>
     
+</div>
+
+</div>
+
+
+<div  id="One"class=" min-window">
+
+
+    
+    <div class="Scroll"><br><br><br>
+       
+        <article class="card__article swiper-slide">
+            <div class="card__image">
+               <img src="../ASCII/Assets/Pragna P1.jpg"  style="height: 500px; width: 500px; margin-left: 33%;" alt="image" class="card__img"><br>
+               <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+               <h3 class="card__name"></h3>
+               <center>
+               <p class="card__description"><br>
+                       ---------------------------------------------------------- <br>
+                       ############################################## <br>
+                       ---------------------------------------
+                       <br>*<br>###################################
+                     <br>########################################################
+                    </p><br><br><br><br><br><br><br><br><br><br><br>
+            </center>
+              
+            </div>
+         </article>
+         <article class="card__article swiper-slide">
+            <div class="card__image">
+               <img src="../ASCII/Assets/Pragna P2.jpg"  style="height: 500px; width: 500px; margin-left: 33%;" alt="image" class="card__img"><br>
+               <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+               <h3 class="card__name"></h3>
+               <center>
+               <p class="card__description"><br>
+                       ---------------------------------------------------------- <br>
+                       ############################################## <br>
+                       ---------------------------------------
+                       <br>*<br>###################################
+                     <br>########################################################
+                    </p><br><br><br><br><br><br><br><br><br><br><br>
+                </center>
+        
+              
+            </div>
+         </article>
+         <article class="card__article swiper-slide">
+            <div class="card__image">
+               <img src="../ASCII/Assets/Pragna WEB.jpg"  style="height: 500px; width: 500px; margin-left: 33%;" alt="image" class="card__img"><br>
+               <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+               <h3 class="card__name"></h3>
+               <center>
+               <p class="card__description"><br>
+                       ---------------------------------------------------------- <br>
+                       ############################################## <br>
+                       ---------------------------------------
+                       <br>*<br>###################################
+                     <br>########################################################
+                    </p><br><br><br><br><br><br><br><br><br><br><br>
+                </center>
+        
+              
+            </div>
+         </article>
+        
+        
+
+            </div>
+          
+      
     
     
     </div>
 </div>
 
     <style>
-		#one{
+		.Scroll{
 	height: 650px;
 	width: 100%;
     border:1px solid#fff;
@@ -178,21 +311,25 @@
     border-radius: 20%;
  }
  .min-window{
-    height:550px;
+    height:850px;
     width: 100%px;
     border:1px solid#fff;
     overflow-y: auto;
-    border-radius: 25px;
-    margin: 10px;
-
-
+    border-radius: 20px;
  }
+#One{
+    color: #fff;
+
+
+}
+
+ 
+ 
  .min-window::-webkit-scrollbar{
     display:none;
 }
  .article {
-    background-color: rgb(220, 168, 216);
-    border: 1px solid #ddd;
+    background:repeating-linear-gradient(to bottom,rgb(11, 145, 190),rgb(127, 183, 202),rgb(13, 133, 173));
     border-radius: 8px;
     padding: 20px;
     text-align: center;
@@ -211,13 +348,17 @@
  
 	</style>
 	</div>
-    </div>
-    
-        <center>
-            <footer>@ National Cadet Corps </footer>
-        </center>
-<script src="NCC.js"></script>
 
-</html>
+<script>
+    document.getElementById("scrollToBottom").onclick = function() {
+        window.scrollTo({
+            top: document.body.scrollHeight, // Scroll to the bottom
+            behavior: 'smooth' // Smooth scroll effect
+        });
+    };
+</script>
+<center>
+<footer>@ NATIONAL CADET CORPS </footer>
+</center>
 </body>
 </html>

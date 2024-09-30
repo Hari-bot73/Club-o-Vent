@@ -1,131 +1,117 @@
-* {
+*{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'roboto';
-    text-shadow: #333;
-    border-radius: 0;
-   
-  }
-  
-  body {
-    background:repeating-linear-gradient(to bottom,rgba(153, 41, 159, 0.555),rgba(184, 110, 208, 0.824));
- 
-  }
-   .header-text {
-    color: #780a0a;
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    z-index: 1;
-  }
-  .main-nav {
-    display: flex;
-    background-color: #f0f0f0;
-    padding: 10px 20px;
-    align-items: center;
-    width:100%;
-    height: 30px;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background:repeating-linear-gradient(to bottom,rgba(250, 150, 255, 0.555),rgba(235, 221, 240, 0.824));
-    border-radius: 0px;
-  }
-  
-  footer {
-    background-color: #000000;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    .nav ul {
-      flex-direction: column;
-    }
-    
-    .nav li {
-      margin-bottom: 10px;
-    }
-    
-    .content {
-      padding: 10px;
-    }
-    
-    .events {
-      padding: 10px;
-    }
-  }
-  
-  .left-links{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .main-nav{
-    display: flex;
-    justify-content: center;
-  }
-  .nav a{
-    text-align: none;
-    margin-right: 15px;
-    color: #000;
-  }
- 
-  nav  li{
-    display: inline;
-    margin: 0 1rem;
-    align-items:center;
 }
 
-
-#three{
-    width: 1520px;
-    height: 1150px;
-    margin:auto;
-    background:repeating-linear-gradient(to bottom,rgba(171, 150, 232, 0.658),rgba(160, 171, 228, 0.824));
-    padding: 35px;
-    font-size: 20px;
-    row-gap: 70px;
-    column-gap: 70px;
-    align-items: center;
-  
+nav {
+    display: flex;
+     /* Space between left and right links */
+    align-items: center;            /* Ensures vertical alignment */
+    padding: 3px 20px;
+    background-color: #f0f0f0;
+    width:100%;
+    border-radius: 50px;
   }
-  .gall{
-    border: 2px solid white;
-    width: 400px;
-    padding: 20px;
-    border-radius: 10%;
-    justify-content: space-between;
-    margin: 30px;
-    background-color:rgba(216, 187, 224, 0.824); 
-    float: left;
-    overflow: auto;
-    row-gap: 70px;
+
+
+  .left-links{
+
+    display: flex;
     align-items: center;
+    justify-content: center;
     
   }
-  .gall img{
-    width: 100%;
-    height: auto;
-    align-items: center;
+  
+
+  nav a {
+    text-decoration: none;
+    margin-right: 15px; /* Adjust spacing between links */
+    color: #000;
   }
-  .desc{
-    padding: 15px;
-    text-align: center;
-    align-items: center;
+
+header{
+    display: flex;
+    
+
+}
+.html{
+    scroll-behavior: smooth;
+  
   }
   
-   #three h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
+  nav ul {
+      list-style-type: none;
+      padding: 0;
+      align-items: end;
+      
   }
-  .card{
-    background:repeating-linear-gradient(to bottom,rgba(153, 41, 159, 0.555),rgba(184, 110, 208, 0.824));
- 
+  
+  nav ul li {
+      display: inline;
+      margin: 0 1rem;
+      align-items: end;
   }
+
+.main-nav{
+  display: flex;
+  justify-content: center;
+}
+footer{
+  color: #000;
+  background-color: #f0f0f0;
+}
+#three{
+
+  height: 750px;
+  margin:auto;
+  background:repeating-linear-gradient(to bottom,rgb(11, 145, 190),rgb(127, 183, 202),rgb(13, 133, 173));
+  padding: 35px;
+  font-size: 20px;
+  row-gap: 70px;
+  column-gap: 70px;
+  align-items: center;
+  margin-left:3.5%;
+}
+.gallery{
+	width:fit-content;
+  }
+  .gall{
+	border: 2px solid white;
+	width: 330px;
+	padding: 20px;
+	border-radius: 10%;
+	justify-content: space-between;
+	margin: 30px;
+    background:repeating-linear-gradient(to bottom,rgb(11, 145, 190),rgb(127, 183, 202),rgb(13, 133, 173));
+	float: left;
+	overflow: auto;
+	row-gap: 70px;
+	align-items: center;
+  justify-content: center;
+	
+  }
+.desc{
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+ #three h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-right: 4%;
+
+}
+.card{
+  background-image: linear-gradient(
+    to bottom, /* direction */
+    #8baaf3, /* color 1 */
+    #e5e8f1, /* color 2 */
+    #4866ea);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows:1fr ;
+
+}
+#one h2{
+  color: antiquewhite;
+}
